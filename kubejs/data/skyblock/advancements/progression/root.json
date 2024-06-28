@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:toilet_block"
+    },
+    "title": {
+      "translate": "SkyBlock"
+    },
+    "description": {
+      "translate": "Everything from Nothing"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "kubejs:textures/block/manure_block.png"
+  },
+  "criteria": {
+    "join_skyblock_world": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

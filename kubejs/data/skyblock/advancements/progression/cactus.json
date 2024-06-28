@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/water_bucket",
+  "display": {
+    "icon": {
+      "item": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "Hump Day Trader"
+    },
+    "description": {
+      "translate": "Commandeer a Desert Wandering Trader's Camel"
+    }
+  },
+  "criteria": {
+    "has_cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cactus"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

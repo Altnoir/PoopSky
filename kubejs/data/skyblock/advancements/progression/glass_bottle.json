@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/kill_witch",
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "Glass Bottle"
+    },
+    "description": {
+      "translate": "Get some Glass Bottle from a Witch"
+    }
+  },
+  "criteria": {
+    "has_glass_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

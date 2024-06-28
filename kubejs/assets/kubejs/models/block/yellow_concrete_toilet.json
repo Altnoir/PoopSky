@@ -1,0 +1,8 @@
+{
+	"parent": "kubejs:block/toilet_block",
+	"textures": {
+		"0": "block/yellow_concrete",
+		"1": "block/water_still",
+		"particle": "block/yellow_concrete"
+	}
+}

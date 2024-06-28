@@ -1,0 +1,34 @@
+{
+    "block.kubejs.toilet_block": "厕所",
+    "block.kubejs.manure_block": "粪便块",
+    "block.kubejs.manure_slab": "粪便台阶",
+    "block.kubejs.manure_stairs": "粪便楼梯",
+    "block.kubejs.manure_wall": "粪便墙",
+    "block.kubejs.manure_fence_gate": "粪便栅栏门",
+
+    "block.kubejs.white_concrete_toilet": "白色混凝土厕所",
+    "block.kubejs.light_gray_concrete_toilet": "淡灰色混凝土厕所",
+    "block.kubejs.gray_concrete_toilet": "灰色混凝土厕所",
+    "block.kubejs.black_concrete_toilet": "黑色混凝土厕所",
+    "block.kubejs.brown_concrete_toilet": "棕色混凝土厕所",
+    "block.kubejs.red_concrete_toilet": "红色混凝土厕所",
+    "block.kubejs.orange_concrete_toilet": "橙色混凝土厕所",
+    "block.kubejs.yellow_concrete_toilet": "黄色混凝土厕所",
+    "block.kubejs.lime_concrete_toilet": "黄绿色混凝土厕所",
+    "block.kubejs.green_concrete_toilet": "绿色混凝土厕所",
+    "block.kubejs.cyan_concrete_toilet": "青色混凝土厕所",
+    "block.kubejs.light_blue_concrete_toilet": "淡蓝色混凝土厕所",
+    "block.kubejs.blue_concrete_toilet": "蓝色混凝土厕所",
+    "block.kubejs.purple_concrete_toilet": "紫色混凝土厕所",
+    "block.kubejs.magenta_concrete_toilet": "品红色混凝土厕所",
+    "block.kubejs.pink_concrete_toilet": "粉色混凝土厕所",
+    "block.kubejs.rainbow_concrete_toilet": "彩色混凝土厕所",
+
+    "item.kubejs.manure_stick": "粪便棍",
+
+    "subtitle.kubejs.poop": "拉屎声",
+
+    "item.minecraft.potion.effect.septic": "尿",
+    "item.minecraft.splash_potion.effect.septic": "喷溅型尿",
+    "item.minecraft.lingering_potion.effect.septic": "滞留型尿"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "carpetskyadditions:spawn_platform",
+  "config": {
+    "platform": {
+      "structure": "carpetskyadditions:spawn_platform",
+      "pos": [
+        0,
+        63,
+        0
+      ]
+    },
+    "spawn_relative": true
+  }
+}

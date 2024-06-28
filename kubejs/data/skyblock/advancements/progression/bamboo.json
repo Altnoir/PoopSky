@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/manure",
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": {
+      "translate": "The First of Many"
+    },
+    "description": {
+      "translate": "Get your first Bamboo"
+    }
+  },
+  "criteria": {
+    "has_oak_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

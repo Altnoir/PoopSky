@@ -1,0 +1,13 @@
+{
+    "poop": {
+        "sounds": [
+            {
+                "name": "kubejs:poop"
+            },
+            {
+                "name": "kubejs:poop2"
+            }
+        ],
+        "subtitle": "subtitle.kubejs.poop"
+    }
+}

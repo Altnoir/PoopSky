@@ -1,0 +1,36 @@
+{
+  "parent": "skyblock:progression/potion_septic",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    "title": {
+      "translate": "a Bottle of Water"
+    },
+    "description": {
+      "translate": "Feed chicken manure water for pure water"
+    }
+  },
+  "criteria": {
+    "has_potion_water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": [
+              {
+                "potion_contents": [
+                  "minecraft:water"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

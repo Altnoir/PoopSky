@@ -1,0 +1,15 @@
+{
+  "center": {
+    "field_11175": 700,
+    "field_11174": 320,
+    "field_11173": 504
+  },
+  "quartExpand": 1,
+  "quartStride": 1,
+  "samplerType": "AUTO",
+  "dimension": {
+    "field_13353": "minecraft",
+    "field_13355": "overworld"
+  },
+  "hideAllStructures": false
+}

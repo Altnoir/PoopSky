@@ -1,0 +1,29 @@
+{
+  "parent": "skyblock:progression/cobblestone",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "Furnace"
+    },
+    "description": {
+      "translate": "Make a Furnace"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "has_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

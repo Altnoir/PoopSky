@@ -1,0 +1,36 @@
+{
+  "parent": "skyblock:progression/glass_bottle",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"kubejs:septic\"}"
+    },
+    "title": {
+      "translate": "Bottle Septic"
+    },
+    "description": {
+      "translate": "Shift and Right-Click the Toilet to get Septic Water"
+    }
+  },
+  "criteria": {
+    "has_potion_septic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "predicates": [
+              {
+                "potion_contents": [
+                  "kubejs:septic"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

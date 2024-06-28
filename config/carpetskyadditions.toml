@@ -1,0 +1,4 @@
+defaultToSkyBlockWorld = true
+enableDatapackByDefault = false
+initialTreeType = "Oak"
+autoEnableDefaultSettings = true

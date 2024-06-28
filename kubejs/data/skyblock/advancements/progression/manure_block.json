@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/bamboo",
+  "display": {
+    "icon": {
+      "item": "kubejs:manure_block"
+    },
+    "title": {
+      "translate": "Manure Block"
+    },
+    "description": {
+      "translate": "Make Manure Block"
+    }
+  },
+  "criteria": {
+    "has_oak_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:manure_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
