@@ -1,7 +1,6 @@
 ServerEvents.tags('block', e => {
     //e.add('minecraft:sand', 'kubejs:manure_block');
     e.add('minecraft:dirt', 'kubejs:manure_block');
-    e.add('minecraft:jungle_logs', 'kubejs:manure_block');
     e.add('poopsky:saplings', [
         'minecraft:oak_sapling',
         'minecraft:spruce_sapling',
