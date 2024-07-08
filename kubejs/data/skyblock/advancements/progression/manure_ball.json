@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/kill_slime",
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Manure Ball"
+    },
+    "description": {
+      "translate": "Wash Manure Ball"
+    }
+  },
+  "criteria": {
+    "has_slime_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:slime_ball"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
