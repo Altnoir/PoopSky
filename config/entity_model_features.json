@@ -15,6 +15,7 @@
   "animationLODDistance": 20,
   "retainDetailOnLowFps": true,
   "retainDetailOnLargerMobs": true,
+  "animationFrameSkipDuringIrisShadowPass": true,
   "preventFirstPersonHandAnimating": false,
   "onlyClientPlayerModel": false
 }

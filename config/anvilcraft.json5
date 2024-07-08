@@ -38,10 +38,14 @@
 	"powerConverter": {
 		// The working interval of power converters
 		"powerConverterCountdown": 10,
-		// Energy efficiency of energy converters (1 KW => xx FE/t)
+		// Energy efficiency of energy converters (1 kW => xx FE/t)
 		"powerConverterEfficiency": 80,
 		// Power loss of energy converters
 		"powerConverterLoss": 0.1
 	},
-	"isLaserDoImpactChecking": true
+	"isLaserDoImpactChecking": true,
+	"inductionLightBlockRipeningCooldown": 400,
+	"inductionLightBlockRipeningRange": 5,
+	// The number of ticks between heliostat detections
+	"heliostatsDetectionInterval": 4
 }

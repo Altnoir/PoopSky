@@ -123,7 +123,7 @@ ServerEvents.recipes(e => {
     function processingToilet(name) {
         e.custom({
             type: 'anvilcraft:anvil_processing',
-            anvil_recipe_type: 'sieving',
+            anvil_recipe_type: 'toilet',
             icon: { item: 'kubejs:toilet_block' },
             outcomes: [
                 {
