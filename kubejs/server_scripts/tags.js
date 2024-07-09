@@ -1,3 +1,9 @@
+ServerEvents.tags('item', e => {
+    //鲜花插在粪便上
+    e.add('minecraft:flowers', 'manure:manure');
+    e.add('minecraft:flowers', 'minecraft:slime_ball');
+})
+
 ServerEvents.tags('block', e => {
     //e.add('minecraft:sand', 'kubejs:manure_block');
     e.add('minecraft:dirt', 'kubejs:manure_block');

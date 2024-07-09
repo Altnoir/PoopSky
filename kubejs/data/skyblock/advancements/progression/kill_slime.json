@@ -2,7 +2,7 @@
   "parent": "skyblock:progression/go_down",
   "display": {
     "icon": {
-      "item": "kubejs:manure_ball"
+      "item": "minecraft:slime_ball"
     },
     "title": {
       "translate": "Shilime Hunt"

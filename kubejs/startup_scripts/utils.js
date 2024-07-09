@@ -1,6 +1,18 @@
 Platform.getInfo('kubejs').name = 'PoopSky';
 
 ItemEvents.modification(e => {
+    //粪球
+    e.modify('minecraft:slime_ball', item => {
+        item.burnTime = 400;
+        item.foodProperties = food => {
+            food.hunger(2);
+            food.saturation(.5);
+            food.meat(true);
+            food.effect('poison', 60, 1, .2)
+            food.effect('nausea', 60, 0, .5)
+        }
+    })
+    //粪便
     e.modify('manure:manure', item => {
         item.burnTime = 400;
         item.foodProperties = food => {

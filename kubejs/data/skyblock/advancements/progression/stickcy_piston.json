@@ -2,23 +2,23 @@
   "parent": "skyblock:progression/kill_slime",
   "display": {
     "icon": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:sticky_piston"
     },
     "title": {
-      "translate": "Manure Ball"
+      "translate": "SHIT Piston!"
     },
     "description": {
-      "translate": "Wash Manure Ball"
+      "translate": "Make a SHIT Piston"
     }
   },
   "criteria": {
-    "has_slime_ball": {
+    "has_sticky_piston": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:slime_ball"
+              "minecraft:sticky_piston"
             ]
           }
         ]

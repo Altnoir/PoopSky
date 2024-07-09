@@ -36,7 +36,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 8.0,
                 "min": 0.0
               },
               "function": "minecraft:set_count"
@@ -50,7 +50,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "kubejs:manure_ball"
+          "name": "minecraft:slime_ball"
         },
         {
           "type": "minecraft:item",
@@ -71,7 +71,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "kubejs:manure_ball"
+          "name": "minecraft:slime_ball"
         }
       ],
       "rolls": 1.0

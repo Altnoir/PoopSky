@@ -1,6 +1,11 @@
 {
     "item.minecraft.slime_spawn_egg": "屎莱姆刷怪蛋",
     "item.minecraft.bee_spawn_egg": "苍蝇刷怪蛋",
+    
+    "item.minecraft.slime_ball": "黏屎球",
+
+    "block.minecraft.sticky_piston": "黏屎活塞",
+    "block.minecraft.slime_block": "黏屎块",
 
     "entity.minecraft.slime": "屎莱姆",
     "entity.minecraft.bee": "苍蝇",
@@ -15,7 +20,7 @@
     "subtitles.entity.bee.hurt": "苍蝇：受伤",
     "subtitles.entity.bee.loop": "苍蝇：嗡嗡",
     "subtitles.entity.bee.loop_aggressive": "苍蝇：愤怒地嗡嗡叫",
-    "subtitles.entity.bee.pollinate": "苍蝇：愤怒地嗡嗡叫",
+    "subtitles.entity.bee.pollinate": "苍蝇：开心地吃屎中",
     "subtitles.entity.bee.sting": "苍蝇：刺蜇",
 
     "subtitles.block.beehive.enter": "苍蝇：入巢",

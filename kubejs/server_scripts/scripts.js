@@ -145,6 +145,9 @@ EntityEvents.hurt(e => {
     const { entity, source } = e;
 
     if (source.actual.getMainHandItem() == 'kubejs:manure_stick') {
-        entity.potionEffects.add('poison', 60);
+        if (entity.type != 'minecraft:slime' && entity.type != 'minecraft:bee') {
+            entity.potionEffects.add('poison', 60);
+        }
+        return;
     }
 })
