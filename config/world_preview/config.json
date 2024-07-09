@@ -9,6 +9,7 @@
   "sampleStructures": false,
   "sampleHeightmap": false,
   "sampleIntersections": false,
+  "storeNoiseSamples": false,
   "heightmapMinY": 32,
   "heightmapMaxY": 255,
   "onlySampleInVisualRange": true,

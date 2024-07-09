@@ -1,3 +1,24 @@
 {
-    "entity.minecraft.slime": "屎莱姆"
+    "item.minecraft.slime_spawn_egg": "屎莱姆刷怪蛋",
+    "item.minecraft.bee_spawn_egg": "苍蝇刷怪蛋",
+
+    "entity.minecraft.slime": "屎莱姆",
+    "entity.minecraft.bee": "苍蝇",
+
+    "subtitles.entity.slime.attack": "屎莱姆：攻击",
+    "subtitles.entity.slime.death": "屎莱姆：死亡",
+    "subtitles.entity.slime.hurt": "屎莱姆：受伤",
+    "subtitles.entity.slime.squish": "屎莱姆：挤压",
+
+    "subtitles.entity.bee.ambient": "苍蝇：嗡嗡",
+    "subtitles.entity.bee.death": "苍蝇：死亡",
+    "subtitles.entity.bee.hurt": "苍蝇：受伤",
+    "subtitles.entity.bee.loop": "苍蝇：嗡嗡",
+    "subtitles.entity.bee.loop_aggressive": "苍蝇：愤怒地嗡嗡叫",
+    "subtitles.entity.bee.pollinate": "苍蝇：愤怒地嗡嗡叫",
+    "subtitles.entity.bee.sting": "苍蝇：刺蜇",
+
+    "subtitles.block.beehive.enter": "苍蝇：入巢",
+    "subtitles.block.beehive.exit": "苍蝇：离巢",
+    "subtitles.block.beehive.work": "苍蝇：工作"
 }

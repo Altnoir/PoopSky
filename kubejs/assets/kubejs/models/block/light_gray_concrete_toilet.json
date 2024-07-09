@@ -1,5 +1,5 @@
 {
-	"parent": "kubejs:block/toilet_block",
+	"parent": "kubejs:block/toilet",
 	"textures": {
 		"0": "block/light_gray_concrete",
 		"1": "block/water_still",

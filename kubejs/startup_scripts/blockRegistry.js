@@ -5,7 +5,7 @@ StartupEvents.registry('block', (event) => {
      * @param {string} displayName -字符串
      */
     function toilet(name, displayName) {
-        event.create(name)
+        event.create(name, 'cardinal')
             .box(0, 0, 0, 5 / 16, 1, 1, false)
             .box(11 / 16, 0, 0, 1, 1, 1, false)
             .box(5 / 16, 0, 0, 11 / 16, 12 / 16, 1, false)
