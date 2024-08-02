@@ -12,6 +12,7 @@ BlockEvents.rightClicked(e => {
                     playerFood.foodLevel -= 1;
                 } else {
                     player.attack(2);
+                    server.runCommandSilent(`execute in ${level.dimension} run summon item ${player.x} ${player.y + .1} ${player.z} {Item:{id:"minecraft:redstone",Count:1b}}`);
                 }
             }
 

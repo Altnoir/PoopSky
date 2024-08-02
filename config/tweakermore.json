@@ -103,7 +103,9 @@
     "particleLimit": 16384,
     "windowSizeWidth": 854,
     "windowSizeHeight": 480,
-    "windowSizePinned": false
+    "windowSizePinned": false,
+    "f3BEntityFacingVectorLength": 2.0,
+    "shulkerBoxItemContentHintShowBarOnMixed": false
   },
   "GenericHotkeys": {
     "copyItemDataToClipBoard": {
@@ -412,6 +414,12 @@
       "hotkey": {
         "keys": ""
       }
+    },
+    "disableF3BEntityFacingVector": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
     }
   },
   "TweakHotkeys": {
@@ -524,6 +532,9 @@
       "keys": ""
     },
     "autoFillContainerIgnoreEnderChest": {
+      "keys": ""
+    },
+    "disableF3BEntityFacingVector": {
       "keys": ""
     }
   },
@@ -1120,6 +1131,10 @@
         "lastUsedTime": 0,
         "useAmount": 0
       },
+      "disableF3BEntityFacingVector": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
       "disableHorizonShadingRendering": {
         "lastUsedTime": 1717963568347,
         "useAmount": 3
@@ -1152,6 +1167,18 @@
         "lastUsedTime": 0,
         "useAmount": 0
       },
+      "f3BEntityFacingVectorLength": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "f3IUseRelatedCoordinate": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "f3IUseRelatedCoordinateShift1": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
       "fakeNightVision": {
         "lastUsedTime": 0,
         "useAmount": 0
@@ -1165,14 +1192,6 @@
         "useAmount": 0
       },
       "flawlessFrames": {
-        "lastUsedTime": 0,
-        "useAmount": 0
-      },
-      "f3IUseRelatedCoordinate": {
-        "lastUsedTime": 0,
-        "useAmount": 0
-      },
-      "f3IUseRelatedCoordinateShift1": {
         "lastUsedTime": 0,
         "useAmount": 0
       },
@@ -1253,6 +1272,10 @@
         "useAmount": 0
       },
       "shulkerBoxItemContentHintScale": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "shulkerBoxItemContentHintShowBarOnMixed": {
         "lastUsedTime": 0,
         "useAmount": 0
       },

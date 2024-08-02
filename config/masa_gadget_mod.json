@@ -32,12 +32,7 @@
         "keys": ""
       }
     },
-    "cacheContainerMenu": {
-      "enabled": true,
-      "hotkey": {
-        "keys": ""
-      }
-    },
+    "cacheContainerMenu": true,
     "syncAllEntityData": {
       "keys": ""
     },
@@ -75,24 +70,14 @@
     "nudgeSelectionSupportFreeCamera": true
   },
   "malilib": {
-    "fastSwitchMasaConfigGui": {
-      "enabled": true,
-      "hotkey": {
-        "keys": ""
-      }
-    },
+    "fastSwitchMasaConfigGui": false,
     "optimizeConfigWidgetSearch": true,
     "showOriginalConfigNameScale": 0.65,
     "backportI18nSupport": true,
     "fixGetInventoryType": true,
     "fixConfigWidgetWidth": true,
     "fixSearchbarHotkeyInput": true,
-    "showOriginalConfigName": {
-      "enabled": false,
-      "hotkey": {
-        "keys": ""
-      }
-    },
+    "showOriginalConfigName": false,
     "favoritesSupport": {
       "enabled": false,
       "hotkey": {
@@ -100,48 +85,209 @@
       }
     },
     "favorites": {},
-    "favoritesFilter": false
+    "favoritesFilter": false,
+    "fixConfigWidgetWidthExpand": false
   },
   "minihud": {
     "pcaSyncProtocolSyncBeehive": true,
-    "minihudI18n": {
-      "enabled": true,
-      "hotkey": {
-        "keys": ""
-      }
-    }
+    "minihudI18n": false
   },
   "tweakeroo": {
-    "inventoryPreviewSyncDataClientOnly": {
-      "enabled": false,
-      "hotkey": {
-        "keys": ""
-      }
-    },
+    "inventoryPreviewSyncDataClientOnly": false,
     "restockWithCraftingRecipes": [],
     "inventoryPreviewUseCache": true,
     "inventoryPreviewSupportShulkerBoxItemEntity": true,
-    "restockWithCrafting": {
-      "enabled": true,
-      "hotkey": {
-        "keys": ""
-      }
-    },
+    "restockWithCrafting": false,
     "inventoryPreviewSupportComparator": true,
-    "inventoryPreviewSupportSelect": {
-      "enabled": true,
-      "hotkey": {
-        "keys": ""
-      }
-    },
-    "inventoryPreviewSyncData": {
-      "enabled": true,
-      "hotkey": {
-        "keys": ""
-      }
-    },
+    "inventoryPreviewSupportSelect": false,
+    "inventoryPreviewSyncData": false,
     "inventoryPreviewSupportTradeOfferList": true,
     "inventoryPreviewSupportPlayer": true
   },
-  "configVersion": 1
+  "configVersion": 1,
+  "internal": {
+    "configStatistic": {
+      "autoSyncEntityData": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "cacheContainerMenu": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "debug": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "openConfigGui": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderNextRestockTime": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderTradeEnchantedBook": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderVillageHomeTracer": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderVillageHomeTracerColor": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderVillageJobSiteTracer": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderVillageJobSiteTracerColor": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "renderZombieVillagerConvertTime": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "searchMobSpawnPoint": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "searchMobSpawnPointBlackList": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "syncAllEntityData": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "betterEasyPlaceMode": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "disableLitematicaEasyPlaceFailTip": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "fixAccurateProtocol": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "nudgeSelectionSupportFreeCamera": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "saveInventoryToSchematicInServer": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "useRelativePath": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "backportI18nSupport": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "fastSwitchMasaConfigGui": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "favoritesSupport": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "fixConfigWidgetWidth": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "fixConfigWidgetWidthExpand": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "fixGetInventoryType": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "fixSearchbarHotkeyInput": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "optimizeConfigWidgetSearch": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "showOriginalConfigName": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "showOriginalConfigNameScale": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "minihudI18n": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "pcaSyncProtocolSyncBeehive": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSupportComparator": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSupportPlayer": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSupportSelect": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSupportShulkerBoxItemEntity": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSupportTradeOfferList": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSyncData": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewSyncDataClientOnly": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "inventoryPreviewUseCache": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "restockWithCrafting": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      },
+      "restockWithCraftingRecipes": {
+        "lastUsedTime": 0,
+        "useAmount": 0
+      }
+    },
+    "global": {
+      "config_version": 0
+    },
+    "config_gui": {
+      "category": "all",
+      "sortingStrategy": "ALPHABET"
+    }
+  },
+  "external": {
+    "malilib_favorites": {
+      "filter_switch": false,
+      "data": {}
+    }
+  }
 }

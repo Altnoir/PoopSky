@@ -3,9 +3,15 @@
     "item.minecraft.bee_spawn_egg": "苍蝇刷怪蛋",
     
     "item.minecraft.slime_ball": "黏屎球",
+    "item.minecraft.honey_bottle": "蛆瓶",
+    "item.minecraft.honeycomb": "蝇脾",
 
     "block.minecraft.sticky_piston": "黏屎活塞",
     "block.minecraft.slime_block": "黏屎块",
+    "block.minecraft.bee_nest": "蝇巢",
+    "block.minecraft.beehive": "蝇箱",
+    "block.minecraft.honey_block": "蛆块",
+    "block.minecraft.honeycomb_block": "蝇脾块",
 
     "entity.minecraft.slime": "屎莱姆",
     "entity.minecraft.bee": "苍蝇",
@@ -25,5 +31,6 @@
 
     "subtitles.block.beehive.enter": "苍蝇：入巢",
     "subtitles.block.beehive.exit": "苍蝇：离巢",
-    "subtitles.block.beehive.work": "苍蝇：工作"
+    "subtitles.block.beehive.work": "苍蝇：工作",
+    "subtitles.block.honey_block.slide": "从蛆块滑下"
 }
